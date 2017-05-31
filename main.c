@@ -19,7 +19,7 @@ void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin){
 	else if(GPIO_Pin == GPIO_PIN_1)
 		BSP_LED_Toggle(LED5);
 	else if(GPIO_Pin == GPIO_PIN_2)
-			BSP_LED_Toggle(LED6);
+		BSP_LED_Toggle(LED6);
 }
 
 void setup(){
